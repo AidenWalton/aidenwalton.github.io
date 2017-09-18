@@ -1,2 +1,2 @@
-# aidenwalton.github.io
+## Vendi
 There is a lack of relevant jobs for university students that provide the opportunity to generate income and develop the skills to perform in industry. Vendi is a mobile platform that connects students to SMEs, aligning their interests to provide the former with work experience and the latter with consulting services. Students are presented an opportunity to tackle real world business problems, putting theory learnt during their studies into practice whilst generating a source of income; and SMEs gain affordable access to the ideas of South Africa’s innovative young minds. 
