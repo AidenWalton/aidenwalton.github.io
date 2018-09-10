@@ -1,225 +1,317 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Vendi Landing Page">
-    <meta name="author" content="Aiden Walton">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Digital Nomads | Web Development, iOS Development, Android Development,
+    SEO, CMS, Angular">
+  <meta name="author" content="Digtal Nomads">
 
-    <title>Vendi</title>
+  <title>Digital Nomads.</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
 
-    <!-- Animation CSS -->
-    <link href="css/animate.min.css" rel="stylesheet">
+  <!-- Custom fonts for this template -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
 
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/contact.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="vendor/animate/animate.css">
 
-    <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body id="page-top">
-<div class="navbar-wrapper">
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a class="page-scroll" href="#page-top">Home</a></li>
-                        <li><a class="page-scroll" href="#problem">Problem</a></li>
-                        <li><a class="page-scroll" href="#solution">Solution</a></li>
-                        <li><a class="page-scroll" href="#team">Team</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-</div>
 
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <div class="container">
-                <div class="carousel-caption" style="padding-left: 200px; color: black">
-                    <h1>Ideas. <br/> 
-                    Goals. <br/>
-                         Planning. <br/>
-                         Strategy. <br/>
-                         Learning.</h1>
-                </div>
-                <div class="carousel-image wow zoomIn">
-                    <img src="img/vendi-logo.png" alt="Vendi"/>
-                </div>
-            </div>
-            <div class="header-back one"></div>
-
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Digital Nomads.</span>
+      <span class="d-none d-lg-block logo"></span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="left nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">Home</a>
+        </li>
+        <li class="left nav-item">
+          <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="left nav-item">
+          <a class="nav-link js-scroll-trigger" href="#theteam">About Me</a>
+        </li>
+      </ul>
     </div>
-    
+  </nav>
 
+  <!-- End Navigation -->
 
-<section id="features" class="container services">
-    <div class="row">
-        <h1>The Problem</h1>
-        <div class="col-sm-6">
-            <h2>Students</h2>
-            <p>South Africa currently experiences chronic levels of youth unemployment. A contributor to this is
-            the mismatch between skills required in the labour market and those provided by education systems. Graduates lack
-            industry experience.
-            </p>
-            
-        </div>
-        <div class="col-sm-6">
-            <h2>Businesses</h2>
-            <p>Small businesses can't hire management consultants. Undergraduates, however, have skills that could be beneficial to businesses. <br /><br />
-            A diverse range of business analysts,
-            software developers, marketers, engineers, financial consultants, creatives, animators and graphic designers exist to help
-            businesses solve their problems.</p>
-        </div>
-    </div>
-</section>
+  <!-- Start Content -->
 
-    <div class="navy-line"></div>
-    <section id="solution" class="container services">
-        <div class="row">
-            <h1>The Solution</h1>
-            <div class="col-sm-12">
-                <p>
-                    A software platform where students can find jobs based on their skills and interests. The platform allows
-                    businesses to post problems that need solving or jobs that need to be done. Vendi's algorithm will provide a list of students that best suites
-                    the business's criteria and budget.
-                </p>
-            </div>
+  <div class="container-fluid p-0">
 
-        </div>
+    <section class="row no-gutters about d-none d-lg-block" id="about">
 
-        <div class="navy-line"></div>
-        <div class="row">
-            <h2>How It Works</h2>
-
-            <p style="font-size: 14px;">
-                Students first sign up with Vendi, and enter their details (such as their location, university, degree and work experience) along with skills and interests. Vendi then uses this
-                data to provide businesses with potential students that could solve their problems. 
-            </p>
-            <img class="img-responsive" src="img/mock.jpg" />
-
-        </div>
-
-        <div class="row">
-            <div class="col-sm-6">
-                <h3>Step One</h3>
-                <p>Businesses post details about the job that needs to be performed and click <span style="font-weight: bold">"Find Me a Student"</span>.
-                Details include a description of the job, the location, the date and time, the number of students wanted and a preference to pick the selection pool based on
-                price or experience.<br />
-                </p>
-            </div>
-            <div class="col-sm-6">
-                <h3>Step Two</h3>
-                <p>The business is then presented with a selection of students that best match the details and skills required
-                by the job. Each student has a rating (based on past work) and an experience level.</p>
-            </div>
-        </div>
-    </section>
-   
-<section id="team" class="gray-section team">
-    <div class="container">
-        <div class="row m-b-lg">
-            <div class="col-lg-12 text-center">
-                <div class="navy-line"></div>
-                <h1>Our Team</h1>
-                <p>4 students from the University of Cape Town (UCT)</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-3 wow fadeInLeft">
-                <div class="team-member">
-                    <img src="img/emma.jpg" class="img-responsive img-circle" alt="">
-                    <h4><span class="navy">Emma</span> Ho</h4>
-                    <p>Business Science - Marketing</p>
-                    <ul class="list-inline social-icon">
-                        <li>
-                            <a href="https://www.facebook.com/emma.ho.5437"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/emma-ho-736ba8a3?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BbmwpKlPnTmKT822Wazswyw%3D%3D"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-sm-3 wow fadeInLeft">
-                <div class="team-member">
-                    <img src="img/aiden.jpg" class="img-responsive img-circle" alt="">
-                    <h4><span class="navy">Aiden</span> Walton</h4>
-                    <p>Business Science - Information Systems</p>
-                    <ul class="list-inline social-icon">
-                        <li><a href="https://www.facebook.com/profile.php?id=617995479"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="https://www.linkedin.com/in/aiden-walton-9a5319116?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B2AjnCxvTSyaC5yKwb2DuWw%3D%3D"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-sm-3 wow fadeInRight">
-                <div class="team-member">
-                    <img src="img/brandon.jpg" class="img-responsive img-circle" alt="">
-                    <h4><span class="navy">Brandon</span> Coetzee</h4>
-                    <p>Business Science - Information Systems</p>
-                    <ul class="list-inline social-icon">
-                        <li>
-                            <a href="https://www.facebook.com/brandon.coetzee.9"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/brandon-coetzee-a190a1116?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BIdlm0EPGTHaoAYcxZ4pWKw%3D%3D"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="col-sm-3 wow fadeInRight">
-                <div class="team-member">
-                    <img src="img/nikhil.jpg" class="img-responsive img-circle" alt="">
-                    <h4><span class="navy">Nikhil</span> Naik</h4>
-                    <p>Business Science - Information Systems</p>
-                    <ul class="list-inline social-icon">
-                        <li><a href="https://www.facebook.com/nainik12"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="https://www.linkedin.com/in/nikhil-naik-a1116485?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BU%2Btzgw28T9O%2F%2FsiNPuNgQQ%3D%3D"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="contact">
-    <div class="container">
-        <div class="row m-b-lg">
-            <div class="col-lg-12 text-center">
-                
-            </div>
-        </div>
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 -40 1440 676">
+          <title>
+            Digital Nomads
+          </title>
+          <style>
+            .Line {
+                height: 1px;
+                stroke-linecap: round;
+                stroke-linejoin: round;
+              }
+          </style>
+          <defs>
+            <circle id="planet-shape" cx="31" cy="31" r="30" />
+            <mask id="planet-mask" fill="#fff">
+              <use xlink:href="#planet-shape" />
+            </mask>
+            <path id="planet-section-1" d="M0 1h62v12H0z" mask="url(#planet-mask)" />
+            <path id="planet-section-2" d="M0 11h62v12H0z" mask="url(#planet-mask)" />
+            <path id="planet-section-3" d="M0 21h62v12H0z" mask="url(#planet-mask)" />
+            <path id="planet-section-4" d="M0 31h62v12H0z" mask="url(#planet-mask)" />
+            <path id="planet-section-5" d="M0 41h62v12H0z" mask="url(#planet-mask)" />
+            <path id="planet-section-6" d="M0 51h62v12H0z" mask="url(#planet-mask)" />
         
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
-                <p><strong>&copy;Vendi</strong><br/></p>
-            </div>
-        </div>
-    </div>
-</section>
+            <symbol id="planet-dark-grey">
+              <use fill="#5E9CCC" xlink:href="#planet-shape" />
+              <use fill="#8DCFDC" xlink:href="#planet-section-1" />
+              <use fill="#7ABAD6" xlink:href="#planet-section-2" />
+              <use fill="#72AFD3" xlink:href="#planet-section-3" />
+              <use fill="#65A4CF" xlink:href="#planet-section-4" />
+              <use fill="#5E9CCC" xlink:href="#planet-section-5" />
+              <use fill="#5B94C8" xlink:href="#planet-section-6" />
+            </symbol>
+            <symbol id="planet-green">
+              <use fill="#18D4D3" xlink:href="#planet-shape" />
+              <use fill="#4DEBC3" xlink:href="#planet-section-1" />
+              <use fill="#39E2C9" xlink:href="#planet-section-2" />
+              <use fill="#29DBCD" xlink:href="#planet-section-3" />
+              <use fill="#18CCD4" xlink:href="#planet-section-4" />
+              <use fill="#0EC0D6" xlink:href="#planet-section-5" />
+              <use fill="#03B2D9" xlink:href="#planet-section-6" />
+            </symbol>
+            <symbol id="planet-light-grey">
+              <use fill="#E1EAF6" xlink:href="#planet-shape" />
+              <use fill="#F5F9FD" xlink:href="#planet-section-1" />
+              <use fill="#ECF2F9" xlink:href="#planet-section-2" />
+              <use fill="#E1EAF6" xlink:href="#planet-section-3" />
+              <use fill="#D7E3F2" xlink:href="#planet-section-4" />
+              <use fill="#D0DDF0" xlink:href="#planet-section-5" />
+              <use fill="#C4D5EC" xlink:href="#planet-section-6" />
+            </symbol>
+            <symbol id="planet-orange">
+              <use fill="#F5A77C" xlink:href="#planet-shape" />
+              <use fill="#FCD380" xlink:href="#planet-section-1" />
+              <use fill="#F9C57E" xlink:href="#planet-section-2" />
+              <use fill="#F5A77C" xlink:href="#planet-section-3" />
+              <use fill="#F19179" xlink:href="#planet-section-4" />
+              <use fill="#EC7376" xlink:href="#planet-section-5" />
+              <use fill="#E75873" xlink:href="#planet-section-6" />
+            </symbol>
+            <symbol id="planet-blue">
+              <use fill="#0196E2" xlink:href="#planet-shape" />
+              <use fill="#0AE7F2" xlink:href="#planet-section-1" />
+              <use fill="#08D2EF" xlink:href="#planet-section-2" />
+              <use fill="#05C6EB" xlink:href="#planet-section-3" />
+              <use fill="#04B5E9" xlink:href="#planet-section-4" />
+              <use fill="#03A9E7" xlink:href="#planet-section-5" />
+              <use fill="#0B9DE7" xlink:href="#planet-section-6" />
+            </symbol>
+          </defs>
+          <g id="hero" fill="none" fill-rule="evenodd">
+            <g id="lines">
+              <rect width="" height="" class="Line" />
+              <rect width="" height="" class="Line" />
+              <rect width="" height="" class="Line" />
+              <rect width="" height="" class="Line" />
+              <rect width="" height="" class="Line" />
+              <rect width="" height="" class="Line" />
+              <rect width="" height="" class="Line" />
+              <rect width="" height="" class="Line" />
+              <rect width="" height="" class="Line" />
+            </g>
+        
+            <g id="distance-2x">
+              <use id="planet-light-grey-6" xlink:href="#planet-light-grey" transform="translate(1374, 34) scale(0.198)" />
+              <use id="planet-orange-2" xlink:href="#planet-orange" transform="translate(1405, 272) scale(0.133)" />
+              <use id="planet-blue-3" xlink:href="#planet-blue" transform="translate(375, 540) scale(0.266)" />
+              <g id="planet-blue-with-ring" transform="translate(881, 68) scale(1.44)" >
+                <use id="planet-blue-2" xlink:href="#planet-blue" />
+                <path stroke="#FFCD6F" d="m-15 31h90" />
+                <path stroke="#0B9DE7" d="m1 32h60" />
+              </g>
+              <g id="moon-3">
+                <use id="planet-orange-1" xlink:href="#planet-orange" transform="translate(272, 567) scale(0.7)" />
+              </g>
+              <use id="planet-dark-grey-3" xlink:href="#planet-dark-grey" transform="translate(1, 420) scale(0.34)" />
+              <use id="planet-orange-6" xlink:href="#planet-orange" transform="translate(21, 416) scale(0.133)" />
+              <use id="planet-dark-grey-3" xlink:href="#planet-dark-grey" transform="translate(860, 360) scale(0.84)" />
+            </g>
+        
+            <g id="distance-3x">
+              <g id="moon-1">
+                <use id="planet-light-grey-5" xlink:href="#planet-light-grey" transform="translate(1112, 271) scale(0.198)" />
+              </g>
+              <g id="moon-4">
+                <use id="planet-light-grey-3" xlink:href="#planet-light-grey" transform="translate(1116, 445) scale(0.297)" />
+              </g>
+              <use id="planet-green-5" xlink:href="#planet-green" transform="translate(1410, 8) scale(0.14)" />
+              <use id="planet-green-3" xlink:href="#planet-green" transform="translate(1192, 507) scale(0.34)" />
+              <use id="planet-dark-grey-4" xlink:href="#planet-dark-grey" transform="translate(1277, 384) scale(0.2)" />
+              <g id="planet-orange-with-ring" transform="translate(1140, 460)" >
+                <use id="planet-orange-3" xlink:href="#planet-orange" />
+                <path stroke="#0ADCF2" d="m-15 31h90" />
+                <path stroke="#EC7376" d="m1 32h60" />
+              </g>
+              <use id="planet-dark-grey-2" xlink:href="#planet-dark-grey" transform="translate(1021, 190) scale(0.41)" />
+              <use id="planet-orange-5" xlink:href="#planet-orange" transform="translate(998, 215) scale(0.199)" />
+              <use id="planet-light-grey-4" xlink:href="#planet-light-grey" transform="translate(1264, 139) scale(0.198)" />
+            </g>
+        
+            <use id="planet-dark-grey-1" xlink:href="#planet-dark-grey" transform="translate(1410, 0)" />
+        
+            <g id="distance-1x">
+              <g id="moon-2">
+                <use id="planet-orange-7" xlink:href="#planet-orange" transform="translate(1176, 290) scale(0.167)" />
+              </g>
+              <use id="planet-blue-4" xlink:href="#planet-blue" transform="translate(132, 501) scale(0.253)" />
+              <g id="big-planet">
+                <use id="planet-orange-4" xlink:href="#planet-orange" transform="translate(1146, 166) scale(2.85)" />
+              </g>
+              <use id="planet-blue-5" xlink:href="#planet-blue" transform="translate(1153, 295)" />
+              <g id="moon-5">
+                <use id="planet-light-grey-7" xlink:href="#planet-light-grey" transform="translate(1157, 344) scale(0.27)" />
+              </g>
+              <use id="planet-light-grey-8" xlink:href="#planet-light-grey" transform="translate(1289, 254) scale(0.198)" />
+              <use id="planet-dark-grey-5" xlink:href="#planet-dark-grey" transform="translate(1201, 193) scale(0.416)" />
+              <use id="planet-green-2" xlink:href="#planet-green" transform="translate(97, 516) scale(0.8)" />
+              <use id="planet-light-grey-1" xlink:href="#planet-light-grey" transform="translate(597, 425) scale(0.885)" />
+            </g>
+          </g>
+        </svg>
 
-<script src="js/jquery-2.1.1.js"></script>
-<script src="js/pace.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/classie.js"></script>
-<script src="js/cbpAnimatedHeader.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/inspinia.js"></script>
+    </section>
+
+    <section class="p-3 p-lg-5 row no-gutters portfolio" id="portfolio">
+      <h2 class="mb-5" data-aos="fade-in">Recent Work</h2>
+
+      <div class="row portfolio-item" data-aos="fade-in">
+        <div class="col-md-6" >
+          <img src="content/perceptions-bi.png" width="100%" />
+        </div>
+        <div class="col-md-6">
+          <h2 class="mt-s-5">
+            <span class="number">01 / </span>
+            SentiGauge
+          </h2>
+            <div class="subheading mb-5">Data Driven Web App</div>
+          <p>SentiGauge is a web-based sentiment analysis platform that monitors various social media feeds for the mention
+            of user-defined keywords. SentiGauge extracts social media data from Facebook, Twitter and RSS news feeds and
+            calculates the sentiment of the data (i.e. whether the article or post is positive, negative or neutral). This
+            data is then aggregated and reported on.</p>
+        </div>
+      </div>
+      <!-- End SentiGauge-->
+
+      <div class="row reverse portfolio-item" data-aos="fade-in">
+
+          <div class="col-md-6">
+              <img src="content/styex.png" width="100%" />
+            </div>
+
+        <div class="col-md-6">
+          <h2 class="mt-s-5">
+            <span class="number">02 / </span>Styex Fleet Management</h2>
+          <div class="subheading mb-5">Mobile App / iOS &amp; Android</div>
+          <p>Styex Fleet Management offers fleet tracking and logistics reporting. The mobile app allows customers to track
+            their assets in real-time and view various KPIs and reports to monitor the performance of their fleet.</p>
+        </div>
+      </div>
+
+      <div class="row portfolio-item" data-aos="fade-in">
+          <div class="col-md-6">
+            <img src="content/it-tel.png" width="100%" />
+          </div>
+          <div class="col-md-6">
+            <h2 class="mt-s-5">
+              <span class="number">03 / </span>IT-TEL</h2>
+              <div class="subheading mb-5">Website / Hugo</div>
+            <p>IT-TEL is a Cape Town based, full-turnkey Information Technology provider</p>
+          </div>
+        </div>
+
+        <div class="row reverse portfolio-item" data-aos="fade-in">
+            <div class="col-md-6">
+              <img src="content/ithemba.png" width="100%" />
+            </div>
+            <div class="col-md-6">
+              <h2 class="mt-s-5">
+                <span class="number">04 / </span>iThemba Labantu</h2>
+                <div class="subheading mb-5">Website / Wordpress</div>
+              <p>iThemba Labantu is an NGO that operates in Philippi, South Africa. They run various community upliftment projects
+                and offer adult and youth education programs to the surrounding community.</p>
+            </div>
+          </div>
+    
+    </section>
+    <section class="p-3 p-lg-5 row no-gutters team" id="theteam">
+        <div class="row no-gutters">
+
+        <div class="col-sm-12" data-aos="fade-in">
+          
+      <h2 class="mb-5">About Me</h2>
+      </div>
+</div>
+<div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8 mb-5" data-aos="fade-in">
+            <div class="wrapper">
+              <div class="profile">
+                <img class="thumbnail" src="content/aiden.png" />
+                <h3 class="name">Aiden Walton</h3>
+                <p class="description">
+                  Aiden graduated with a Bachelor of Business Science in Information Systems (with honours) from the University of Cape Town. He has worked as a full-time software
+                  developer for a leading South African insurance company. <br><br> He has experience in both front- and back-end development with <span class="navy bold">Java</span>,
+                  <span class="navy bold">C#</span>, <span class="navy bold">SQL</span> and <span class="navy bold">PL/SQL</span>.
+              </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/nomads.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+    <script src="js/planets.js"></script>
+
 </body>
+
 </html>
